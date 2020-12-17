@@ -1,4 +1,5 @@
 import React from 'react'
+import classes, * as css from './QuestionSummary.module.css'
 
 class QuestionSummary extends React.Component{
 
@@ -7,9 +8,11 @@ class QuestionSummary extends React.Component{
     }
 
     render(){
-        return(<div>
-            
-        </div>);
+        return(
+        <div className={classes.QuestionSummary}>
+
+        </div>
+        );
     }
 }
 
