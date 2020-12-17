@@ -1,0 +1,12 @@
+.TextArea{
+    background-color: rgb(212, 206, 206);
+    color: black;
+    border-bottom: 2px solid black;
+    font-family: "Verdana, Geneva, Tahoma, sans-serif";
+    margin-top: 100px;
+}
+
+.TextArea::placeholder{
+    color: darkslategrey;
+    font-size: large;
+}

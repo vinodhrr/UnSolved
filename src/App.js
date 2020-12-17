@@ -1,23 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import TextArea from './UI/TextArea/TextArea'
+import Button from './UI/Button/Button'
+import Layout from './components/Layout/Layout'
+import * as classes from './App.module.css'
+import QuestionSummary from './components/QuestionSummary/QuestionSummary'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div >
+    <Layout>
+      <QuestionSummary />
+      </Layout>
+    {/* <Layout>
+      <div className={classes.App}>
+    <form >
+      <main><TextArea /></main>
+    <Button btnName="submit" type="Proceed"/>
+    <Button btnName="Cancel" type="Cancel"/>
+    </form>
+    </div>
+    </Layout> */}
+    
     </div>
   );
 }

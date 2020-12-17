@@ -1,0 +1,29 @@
+.SideMenu{
+    position: fixed;
+    /* z-index: 200; */
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 280px;
+    background-color: grey;
+    /* background-color: grey; */
+}
+
+.hide{
+    height: 0;
+    width: 0;
+    display: none;
+}
+
+.MenuIcon{
+    /* position: fixed; */
+    z-index: 200;
+    /* height: 100%; */
+}
+
+.MenuIcon div{
+    width: 35px;
+    height: 5px;
+    background-color: red;
+    margin: 6px 5px;
+}
