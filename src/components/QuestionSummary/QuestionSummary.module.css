@@ -1,5 +1,13 @@
 .QuestionSummary{
     margin: 100px 290px;
-    width: 100px;
-    height: 100px;
+    position: fixed;
+    background-color: rgb(94, 96, 97);
+}
+
+.QuestionSummary div{
+    border: 1px solid grey;
+    /* box-shadow: 0 0 10px grey; */
+    /* width: 100px;
+    height: 100px; */
+    background-color: rgb(197, 192, 192)
 }

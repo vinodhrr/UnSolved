@@ -15,15 +15,12 @@
     display: none;
 }
 
-.MenuIcon{
-    /* position: fixed; */
-    z-index: 200;
-    /* height: 100%; */
+.MenuIcon{z-index: 200;
 }
 
 .MenuIcon div{
     width: 35px;
     height: 5px;
-    background-color: red;
+    background-color: black;
     margin: 6px 5px;
 }

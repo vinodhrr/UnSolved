@@ -9,7 +9,7 @@ function App() {
     <div >
     <Layout>
       <QuestionSummary />
-      </Layout>
+    </Layout>
     {/* <Layout>
       <div className={classes.App}>
     <form >
