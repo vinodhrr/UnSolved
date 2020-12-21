@@ -1,0 +1,5 @@
+.Categories li{
+    display: inline;
+    padding: 5px;
+    box-sizing: border-box;
+}
